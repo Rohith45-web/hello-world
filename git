@@ -1,0 +1,291 @@
+Microsoft Windows [Version 10.0.19045.5487]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin\OneDrive\Desktop\git>git init
+Initialized empty Git repository in C:/Users/Admin/OneDrive/Desktop/git/.git/
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git init
+Reinitialized existing Git repository in C:/Users/Admin/OneDrive/Desktop/git/.git/
+
+C:\Users\Admin\OneDrive\Desktop\git>ls -a
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Admin\OneDrive\Desktop\git>git ls-a
+git: 'ls-a' is not a git command. See 'git --help'.
+
+The most similar command is
+        ls-tree
+
+C:\Users\Admin\OneDrive\Desktop\git>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+C:\Users\Admin\OneDrive\Desktop\git>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Admin\OneDrive\Desktop\git>touch names.txt
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Admin\OneDrive\Desktop\git>git init
+Reinitialized existing Git repository in C:/Users/Admin/OneDrive/Desktop/git/.git/
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git add <community>
+The syntax of the command is incorrect.
+
+C:\Users\Admin\OneDrive\Desktop\git>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+C:\Users\Admin\OneDrive\Desktop\git>git add<filename>
+The syntax of the command is incorrect.
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        community
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        community
+        python
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git python
+git: 'python' is not a git command. See 'git --help'.
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        community
+        python
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git add python
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   python
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        community
+
+
+C:\Users\Admin\OneDrive\Desktop\git>git add community
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   community
+        new file:   python
+
+
+C:\Users\Admin\OneDrive\Desktop\git>git commit -m "commiting community"
+[main (root-commit) 4575e06] commiting community
+ 2 files changed, 1 insertion(+)
+ create mode 100644 community
+ create mode 100644 python
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Admin\OneDrive\Desktop\git>git remote add origin https://github.com/Rohith45-web/titans.git
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\Admin\OneDrive\Desktop\git>-u origin main
+'-u' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Admin\OneDrive\Desktop\git>git branch
+* main
+
+C:\Users\Admin\OneDrive\Desktop\git>-u origin main
+'-u' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Admin\OneDrive\Desktop\git>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 267 bytes | 33.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Rohith45-web/titans.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Admin\OneDrive\Desktop\git>
+C:\Users\Admin\OneDrive\Desktop\git>git branch
+* main
+
+C:\Users\Admin\OneDrive\Desktop\git>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\Admin\OneDrive\Desktop\git>
+C:\Users\Admin\OneDrive\Desktop\git>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\Admin\OneDrive\Desktop\git>git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Rohith45-web/titans.git'
+
+C:\Users\Admin\OneDrive\Desktop\git>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\Admin\OneDrive\Desktop\git>git checkout
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Admin\OneDrive\Desktop\git>git checkout -b "copy1"
+Switched to a new branch 'copy1'
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch copy1
+nothing to commit, working tree clean
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch copy1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hi
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git checkout -b "copy1"
+fatal: a branch named 'copy1' already exists
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch copy1
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hi
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git checkout -b "copy2"
+Switched to a new branch 'copy2'
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch copy2
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hi
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Admin\OneDrive\Desktop\git>git branch
+  copy1
+* copy2
+  main
+
+C:\Users\Admin\OneDrive\Desktop\git>git add hi
+
+C:\Users\Admin\OneDrive\Desktop\git>git status
+On branch copy2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hi
+
+
+C:\Users\Admin\OneDrive\Desktop\git>git commit -m "commiting hiii"
+[copy2 48765cb] commiting hiii
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hi
+
+C:\Users\Admin\OneDrive\Desktop\git>git push
+fatal: The current branch copy2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin copy2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\Admin\OneDrive\Desktop\git>git push --set-upstream origin copy2
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 279 bytes | 55.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'copy2' on GitHub by visiting:
+remote:      https://github.com/Rohith45-web/titans/pull/new/copy2
+remote:
+To https://github.com/Rohith45-web/titans.git
+ * [new branch]      copy2 -> copy2
+branch 'copy2' set up to track 'origin/copy2'.
+
+C:\Users\Admin\OneDrive\Desktop\git>git push --set-upstream origin copy1
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'copy1' on GitHub by visiting:
+remote:      https://github.com/Rohith45-web/titans/pull/new/copy1
+remote:
+To https://github.com/Rohith45-web/titans.git
+ * [new branch]      copy1 -> copy1
+branch 'copy1' set up to track 'origin/copy1'.
+
+C:\Users\Admin\OneDrive\Des
